@@ -25,7 +25,7 @@
 namespace playrho {
 namespace d2 {
 
-int Shape::_shapeTypeIndex = 0;
+int Shape::m_shapeTypeIndex = 0;
 
 namespace {
 
