@@ -20,7 +20,7 @@
 #ifndef PLAYRHO_COMMON_STACKALLOCATOR_HPP
 #define PLAYRHO_COMMON_STACKALLOCATOR_HPP
 
-#include <PlayRho/Common/Settings.hpp>
+#include "PlayRho/Common/Settings.hpp"
 
 namespace playrho {
 

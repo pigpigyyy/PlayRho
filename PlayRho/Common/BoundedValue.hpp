@@ -21,8 +21,8 @@
 #ifndef PLAYRHO_COMMON_BOUNDEDVALUE_HPP
 #define PLAYRHO_COMMON_BOUNDEDVALUE_HPP
 
-#include <PlayRho/Common/InvalidArgument.hpp>
-#include <PlayRho/Common/Templates.hpp>
+#include "PlayRho/Common/InvalidArgument.hpp"
+#include "PlayRho/Common/Templates.hpp"
 
 #include <limits>
 #include <type_traits>

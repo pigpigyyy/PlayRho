@@ -22,9 +22,9 @@
 #ifndef PLAYRHO_COMMON_VECTOR2_HPP
 #define PLAYRHO_COMMON_VECTOR2_HPP
 
-#include <PlayRho/Common/Settings.hpp>
-#include <PlayRho/Common/InvalidArgument.hpp>
-#include <PlayRho/Common/Vector.hpp>
+#include "PlayRho/Common/Settings.hpp"
+#include "PlayRho/Common/InvalidArgument.hpp"
+#include "PlayRho/Common/Vector.hpp"
 
 namespace playrho {
 

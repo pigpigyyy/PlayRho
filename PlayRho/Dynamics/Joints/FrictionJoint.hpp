@@ -22,9 +22,9 @@
 #ifndef PLAYRHO_DYNAMICS_JOINTS_FRICTIONJOINT_HPP
 #define PLAYRHO_DYNAMICS_JOINTS_FRICTIONJOINT_HPP
 
-#include <PlayRho/Dynamics/Joints/Joint.hpp>
-#include <PlayRho/Dynamics/Joints/FrictionJointConf.hpp>
-#include <PlayRho/Common/BoundedValue.hpp>
+#include "PlayRho/Dynamics/Joints/Joint.hpp"
+#include "PlayRho/Dynamics/Joints/FrictionJointConf.hpp"
+#include "PlayRho/Common/BoundedValue.hpp"
 
 namespace playrho {
 namespace d2 {

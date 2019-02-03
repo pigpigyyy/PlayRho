@@ -22,8 +22,8 @@
 #ifndef PLAYRHO_DYNAMICS_JOINTS_MOTORJOINT_HPP
 #define PLAYRHO_DYNAMICS_JOINTS_MOTORJOINT_HPP
 
-#include <PlayRho/Dynamics/Joints/Joint.hpp>
-#include <PlayRho/Dynamics/Joints/MotorJointConf.hpp>
+#include "PlayRho/Dynamics/Joints/Joint.hpp"
+#include "PlayRho/Dynamics/Joints/MotorJointConf.hpp"
 
 namespace playrho {
 namespace d2 {

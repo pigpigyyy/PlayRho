@@ -24,8 +24,8 @@
 /// @file
 /// Declaration of the FixtureAtty class.
 
-#include <PlayRho/Common/Span.hpp>
-#include <PlayRho/Dynamics/Fixture.hpp>
+#include "PlayRho/Common/Span.hpp"
+#include "PlayRho/Dynamics/Fixture.hpp"
 #include <vector>
 #include <memory>
 

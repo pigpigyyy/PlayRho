@@ -20,8 +20,8 @@
 #ifndef PLAYRHO_DYNAMICS_CONTACTS_POSITIONCONSTRAINT_HPP
 #define PLAYRHO_DYNAMICS_CONTACTS_POSITIONCONSTRAINT_HPP
 
-#include <PlayRho/Collision/Manifold.hpp>
-#include <PlayRho/Dynamics/Contacts/BodyConstraint.hpp>
+#include "PlayRho/Collision/Manifold.hpp"
+#include "PlayRho/Dynamics/Contacts/BodyConstraint.hpp"
 
 namespace playrho {
 namespace d2 {

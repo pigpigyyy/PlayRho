@@ -20,7 +20,7 @@
 #ifndef PLAYRHO_COMMON_CODEDUMPER_HPP
 #define PLAYRHO_COMMON_CODEDUMPER_HPP
 
-#include <PlayRho/Common/Settings.hpp>
+#include "PlayRho/Common/Settings.hpp"
 
 namespace playrho {
 namespace d2 {

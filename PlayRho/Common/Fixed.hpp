@@ -21,8 +21,8 @@
 #ifndef PLAYRHO_COMMON_FIXED_HPP
 #define PLAYRHO_COMMON_FIXED_HPP
 
-#include <PlayRho/Common/Wider.hpp>
-#include <PlayRho/Common/Templates.hpp>
+#include "PlayRho/Common/Wider.hpp"
+#include "PlayRho/Common/Templates.hpp"
 
 #include <cstdint>
 #include <limits>

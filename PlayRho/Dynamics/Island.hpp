@@ -20,7 +20,7 @@
 #ifndef PLAYRHO_DYNAMICS_ISLAND_HPP
 #define PLAYRHO_DYNAMICS_ISLAND_HPP
 
-#include <PlayRho/Common/Math.hpp>
+#include "PlayRho/Common/Math.hpp"
 #include <vector>
 
 namespace playrho {

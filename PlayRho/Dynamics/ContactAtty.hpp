@@ -24,7 +24,7 @@
 /// @file
 /// Declaration of the ContactAtty class.
 
-#include <PlayRho/Dynamics/Contacts/Contact.hpp>
+#include "PlayRho/Dynamics/Contacts/Contact.hpp"
 
 namespace playrho {
 namespace d2 {

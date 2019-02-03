@@ -25,10 +25,10 @@
 /// @file
 /// Declarations of the BodyConf struct and free functions associated with it.
 
-#include <PlayRho/Common/Settings.hpp>
-#include <PlayRho/Common/BoundedValue.hpp>
-#include <PlayRho/Common/Math.hpp>
-#include <PlayRho/Dynamics/BodyType.hpp>
+#include "PlayRho/Common/Settings.hpp"
+#include "PlayRho/Common/BoundedValue.hpp"
+#include "PlayRho/Common/Math.hpp"
+#include "PlayRho/Dynamics/BodyType.hpp"
 
 namespace playrho {
 namespace d2 {

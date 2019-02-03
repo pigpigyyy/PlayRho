@@ -20,11 +20,11 @@
 #ifndef PLAYRHO_COLLISION_SHAPES_POLYGONSHAPECONF_HPP
 #define PLAYRHO_COLLISION_SHAPES_POLYGONSHAPECONF_HPP
 
-#include <PlayRho/Common/Math.hpp>
-#include <PlayRho/Collision/Shapes/ShapeConf.hpp>
-#include <PlayRho/Collision/DistanceProxy.hpp>
-#include <PlayRho/Collision/MassData.hpp>
-#include <PlayRho/Common/VertexSet.hpp>
+#include "PlayRho/Common/Math.hpp"
+#include "PlayRho/Collision/Shapes/ShapeConf.hpp"
+#include "PlayRho/Collision/DistanceProxy.hpp"
+#include "PlayRho/Collision/MassData.hpp"
+#include "PlayRho/Common/VertexSet.hpp"
 #include <type_traits>
 #include <vector>
 

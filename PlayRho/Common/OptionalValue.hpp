@@ -21,7 +21,7 @@
 #ifndef PLAYRHO_COMMON_OPTIONALVALUE_HPP
 #define PLAYRHO_COMMON_OPTIONALVALUE_HPP
 
-#include <PlayRho/Defines.hpp>
+#include "PlayRho/Defines.hpp"
 #include <cassert>
 #include <utility>
 

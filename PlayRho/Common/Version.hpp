@@ -22,7 +22,7 @@
 #ifndef PLAYRHO_COMMON_VERSION_HPP
 #define PLAYRHO_COMMON_VERSION_HPP
 
-#include <PlayRho/Defines.hpp>
+#include "PlayRho/Defines.hpp"
 
 #include <cstdint>
 #include <string>

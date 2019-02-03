@@ -22,8 +22,8 @@
 #ifndef PLAYRHO_DYNAMICS_JOINTS_DISTANCEJOINT_HPP
 #define PLAYRHO_DYNAMICS_JOINTS_DISTANCEJOINT_HPP
 
-#include <PlayRho/Dynamics/Joints/Joint.hpp>
-#include <PlayRho/Dynamics/Joints/DistanceJointConf.hpp>
+#include "PlayRho/Dynamics/Joints/Joint.hpp"
+#include "PlayRho/Dynamics/Joints/DistanceJointConf.hpp"
 
 namespace playrho {
 namespace d2 {

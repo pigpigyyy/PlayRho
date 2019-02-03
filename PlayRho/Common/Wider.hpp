@@ -21,7 +21,7 @@
 #ifndef PLAYRHO_COMMON_WIDER_HPP
 #define PLAYRHO_COMMON_WIDER_HPP
 
-#include <PlayRho/Defines.hpp>
+#include "PlayRho/Defines.hpp"
 #include <cstdint>
 #include <type_traits>
 

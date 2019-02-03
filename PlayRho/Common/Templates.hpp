@@ -21,7 +21,7 @@
 #ifndef PLAYRHO_COMMON_TEMPLATES_HPP
 #define PLAYRHO_COMMON_TEMPLATES_HPP
 
-#include <PlayRho/Defines.hpp>
+#include "PlayRho/Defines.hpp"
 
 #include <algorithm>
 #include <functional>

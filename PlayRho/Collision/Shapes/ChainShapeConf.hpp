@@ -22,11 +22,11 @@
 #ifndef PLAYRHO_COLLISION_SHAPES_CHAINSHAPECONF_HPP
 #define PLAYRHO_COLLISION_SHAPES_CHAINSHAPECONF_HPP
 
-#include <PlayRho/Common/Math.hpp>
-#include <PlayRho/Collision/Shapes/ShapeConf.hpp>
-#include <PlayRho/Collision/DistanceProxy.hpp>
-#include <PlayRho/Collision/MassData.hpp>
-#include <PlayRho/Collision/AABB.hpp>
+#include "PlayRho/Common/Math.hpp"
+#include "PlayRho/Collision/Shapes/ShapeConf.hpp"
+#include "PlayRho/Collision/DistanceProxy.hpp"
+#include "PlayRho/Collision/MassData.hpp"
+#include "PlayRho/Collision/AABB.hpp"
 #include <vector>
 
 namespace playrho {

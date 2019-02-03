@@ -19,9 +19,9 @@
  * 3. This notice may not be removed or altered from any source distribution.
  */
 
-#include <PlayRho/Dynamics/Joints/WheelJointConf.hpp>
-#include <PlayRho/Dynamics/Joints/WheelJoint.hpp>
-#include <PlayRho/Dynamics/Body.hpp>
+#include "PlayRho/Dynamics/Joints/WheelJointConf.hpp"
+#include "PlayRho/Dynamics/Joints/WheelJoint.hpp"
+#include "PlayRho/Dynamics/Body.hpp"
 
 namespace playrho {
 namespace d2 {

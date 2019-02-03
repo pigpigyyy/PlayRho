@@ -19,10 +19,14 @@
  * 3. This notice may not be removed or altered from any source distribution.
  */
 
-#include <PlayRho/Collision/Shapes/Shape.hpp>
+#include "PlayRho/Collision/Shapes/Shape.hpp"
+#include "PlayRho/Collision/Shapes/ShapeConf.hpp"
 
 namespace playrho {
 namespace d2 {
+
+int Shape::_shapeTypeIndex = 0;
+
 namespace {
 
 struct DefaultShapeConf

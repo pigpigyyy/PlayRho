@@ -22,9 +22,9 @@
 #ifndef PLAYRHO_DYNAMICS_JOINTS_REVOLUTEJOINTCONF_HPP
 #define PLAYRHO_DYNAMICS_JOINTS_REVOLUTEJOINTCONF_HPP
 
-#include <PlayRho/Dynamics/Joints/JointConf.hpp>
-#include <PlayRho/Common/BoundedValue.hpp>
-#include <PlayRho/Common/Math.hpp>
+#include "PlayRho/Dynamics/Joints/JointConf.hpp"
+#include "PlayRho/Common/BoundedValue.hpp"
+#include "PlayRho/Common/Math.hpp"
 
 namespace playrho {
 namespace d2 {

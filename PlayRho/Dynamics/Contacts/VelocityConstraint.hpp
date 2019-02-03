@@ -20,8 +20,8 @@
 #ifndef PLAYRHO_DYNAMICS_CONTACTS_VELOCITYCONSTRAINT_HPP
 #define PLAYRHO_DYNAMICS_CONTACTS_VELOCITYCONSTRAINT_HPP
 
-#include <PlayRho/Common/Math.hpp>
-#include <PlayRho/Dynamics/Contacts/BodyConstraint.hpp>
+#include "PlayRho/Common/Math.hpp"
+#include "PlayRho/Dynamics/Contacts/BodyConstraint.hpp"
 
 namespace playrho {
 

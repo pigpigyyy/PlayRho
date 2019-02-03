@@ -19,8 +19,8 @@
 #ifndef PLAYRHO_COMMON_SPAN_HPP
 #define PLAYRHO_COMMON_SPAN_HPP
 
-#include <PlayRho/Defines.hpp>
-#include <PlayRho/Common/Templates.hpp>
+#include "PlayRho/Defines.hpp"
+#include "PlayRho/Common/Templates.hpp"
 
 #include <cstddef>
 #include <cassert>

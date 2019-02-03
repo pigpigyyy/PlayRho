@@ -20,7 +20,7 @@
 #ifndef PLAYRHO_COLLISION_WORLDMANIFOLD_HPP
 #define PLAYRHO_COLLISION_WORLDMANIFOLD_HPP
 
-#include <PlayRho/Common/Math.hpp>
+#include "PlayRho/Common/Math.hpp"
 
 namespace playrho {
 namespace d2 {

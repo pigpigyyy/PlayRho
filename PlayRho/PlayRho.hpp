@@ -44,7 +44,7 @@ For coding, begin simply by including the <code>PlayRho/PlayRho.hpp</code> heade
  <a href="classplayrho_1_1d2_1_1World.html"><code>playrho::d2::World</code></a> class.
  Here's what this might look like:
  @code
- #include <PlayRho/PlayRho.hpp>
+ #include "PlayRho/PlayRho.hpp"
  
  int main()
  {
@@ -91,39 +91,39 @@ For a more elaborate example, see
 /// @namespace playrho::detail
 /// Name space for internal/detail related PlayRho names.
 
-#include <PlayRho/Common/Settings.hpp>
+#include "PlayRho/Common/Settings.hpp"
 
-#include <PlayRho/Collision/Shapes/DiskShapeConf.hpp>
-#include <PlayRho/Collision/Shapes/EdgeShapeConf.hpp>
-#include <PlayRho/Collision/Shapes/ChainShapeConf.hpp>
-#include <PlayRho/Collision/Shapes/PolygonShapeConf.hpp>
-#include <PlayRho/Collision/Shapes/MultiShapeConf.hpp>
+#include "PlayRho/Collision/Shapes/DiskShapeConf.hpp"
+#include "PlayRho/Collision/Shapes/EdgeShapeConf.hpp"
+#include "PlayRho/Collision/Shapes/ChainShapeConf.hpp"
+#include "PlayRho/Collision/Shapes/PolygonShapeConf.hpp"
+#include "PlayRho/Collision/Shapes/MultiShapeConf.hpp"
 
-#include <PlayRho/Collision/Collision.hpp>
-#include <PlayRho/Collision/Manifold.hpp>
-#include <PlayRho/Collision/WorldManifold.hpp>
-#include <PlayRho/Collision/Distance.hpp>
-#include <PlayRho/Collision/DistanceProxy.hpp>
+#include "PlayRho/Collision/Collision.hpp"
+#include "PlayRho/Collision/Manifold.hpp"
+#include "PlayRho/Collision/WorldManifold.hpp"
+#include "PlayRho/Collision/Distance.hpp"
+#include "PlayRho/Collision/DistanceProxy.hpp"
 
-#include <PlayRho/Dynamics/Body.hpp>
-#include <PlayRho/Dynamics/BodyConf.hpp>
-#include <PlayRho/Dynamics/Fixture.hpp>
-#include <PlayRho/Dynamics/WorldCallbacks.hpp>
-#include <PlayRho/Dynamics/StepConf.hpp>
-#include <PlayRho/Dynamics/World.hpp>
+#include "PlayRho/Dynamics/Body.hpp"
+#include "PlayRho/Dynamics/BodyConf.hpp"
+#include "PlayRho/Dynamics/Fixture.hpp"
+#include "PlayRho/Dynamics/WorldCallbacks.hpp"
+#include "PlayRho/Dynamics/StepConf.hpp"
+#include "PlayRho/Dynamics/World.hpp"
 
-#include <PlayRho/Dynamics/Contacts/Contact.hpp>
+#include "PlayRho/Dynamics/Contacts/Contact.hpp"
 
-#include <PlayRho/Dynamics/Joints/DistanceJoint.hpp>
-#include <PlayRho/Dynamics/Joints/FrictionJoint.hpp>
-#include <PlayRho/Dynamics/Joints/GearJoint.hpp>
-#include <PlayRho/Dynamics/Joints/MotorJoint.hpp>
-#include <PlayRho/Dynamics/Joints/TargetJoint.hpp>
-#include <PlayRho/Dynamics/Joints/PrismaticJoint.hpp>
-#include <PlayRho/Dynamics/Joints/PulleyJoint.hpp>
-#include <PlayRho/Dynamics/Joints/RevoluteJoint.hpp>
-#include <PlayRho/Dynamics/Joints/RopeJoint.hpp>
-#include <PlayRho/Dynamics/Joints/WeldJoint.hpp>
-#include <PlayRho/Dynamics/Joints/WheelJoint.hpp>
+#include "PlayRho/Dynamics/Joints/DistanceJoint.hpp"
+#include "PlayRho/Dynamics/Joints/FrictionJoint.hpp"
+#include "PlayRho/Dynamics/Joints/GearJoint.hpp"
+#include "PlayRho/Dynamics/Joints/MotorJoint.hpp"
+#include "PlayRho/Dynamics/Joints/TargetJoint.hpp"
+#include "PlayRho/Dynamics/Joints/PrismaticJoint.hpp"
+#include "PlayRho/Dynamics/Joints/PulleyJoint.hpp"
+#include "PlayRho/Dynamics/Joints/RevoluteJoint.hpp"
+#include "PlayRho/Dynamics/Joints/RopeJoint.hpp"
+#include "PlayRho/Dynamics/Joints/WeldJoint.hpp"
+#include "PlayRho/Dynamics/Joints/WheelJoint.hpp"
 
 #endif // PLAYRHO_PLAYRHO_HPP

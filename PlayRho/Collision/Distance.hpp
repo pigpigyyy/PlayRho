@@ -20,8 +20,8 @@
 #ifndef PLAYRHO_COLLISION_DISTANCE_HPP
 #define PLAYRHO_COLLISION_DISTANCE_HPP
 
-#include <PlayRho/Common/Math.hpp>
-#include <PlayRho/Collision/Simplex.hpp>
+#include "PlayRho/Common/Math.hpp"
+#include "PlayRho/Collision/Simplex.hpp"
 
 namespace playrho {
 

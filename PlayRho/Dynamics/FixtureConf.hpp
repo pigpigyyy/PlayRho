@@ -25,7 +25,7 @@
 /// @file
 /// Declarations of the FixtureConf struct and any free functions associated with it.
 
-#include <PlayRho/Dynamics/Filter.hpp>
+#include "PlayRho/Dynamics/Filter.hpp"
 
 namespace playrho {
 namespace d2 {

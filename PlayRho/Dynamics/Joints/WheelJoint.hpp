@@ -22,8 +22,8 @@
 #ifndef PLAYRHO_DYNAMICS_JOINTS_WHEELJOINT_HPP
 #define PLAYRHO_DYNAMICS_JOINTS_WHEELJOINT_HPP
 
-#include <PlayRho/Dynamics/Joints/Joint.hpp>
-#include <PlayRho/Dynamics/Joints/WheelJointConf.hpp>
+#include "PlayRho/Dynamics/Joints/Joint.hpp"
+#include "PlayRho/Dynamics/Joints/WheelJointConf.hpp"
 
 namespace playrho {
 namespace d2 {

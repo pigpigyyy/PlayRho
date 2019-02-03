@@ -17,10 +17,10 @@
  * 3. This notice may not be removed or altered from any source distribution.
  */
 
-#include <PlayRho/Collision/Distance.hpp>
-#include <PlayRho/Collision/DistanceProxy.hpp>
-#include <PlayRho/Collision/Simplex.hpp>
-#include <PlayRho/Collision/TimeOfImpact.hpp>
+#include "PlayRho/Collision/Distance.hpp"
+#include "PlayRho/Collision/DistanceProxy.hpp"
+#include "PlayRho/Collision/Simplex.hpp"
+#include "PlayRho/Collision/TimeOfImpact.hpp"
 
 namespace playrho {
 namespace d2 {
@@ -84,7 +84,7 @@ PairLength2 GetWitnessPoints(const Simplex& simplex) noexcept
     auto pointA = Length2{};
     auto pointB = Length2{};
 
-    const auto numEdges = size(simplex);
+    const auto numEdges = std::size(simplex);
     for (auto i = decltype(numEdges){0}; i < numEdges; ++i)
     {
         const auto e = simplex.GetSimplexEdge(i);

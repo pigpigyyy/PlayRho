@@ -21,14 +21,14 @@
 #ifndef PLAYRHO_COMMON_FIXEDLIMITS_HPP
 #define PLAYRHO_COMMON_FIXEDLIMITS_HPP
 
-#include <PlayRho/Common/Fixed.hpp>
+#include "PlayRho/Common/Fixed.hpp"
 
 namespace std {
 
     /// @brief Template specialization of numeric limits for Fixed types.
     /// @sa http://en.cppreference.com/w/cpp/types/numeric_limits
     template <typename BT, unsigned int FB>
-    class numeric_limits<playrho::Fixed<BT,FB>>
+	class numeric_limits<playrho::Fixed<BT,FB>>
     {
     public:
         static PLAYRHO_CONSTEXPR const bool is_specialized = true; ///< Type is specialized.

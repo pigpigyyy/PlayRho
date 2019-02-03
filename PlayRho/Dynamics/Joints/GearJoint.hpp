@@ -22,9 +22,9 @@
 #ifndef PLAYRHO_DYNAMICS_JOINTS_GEARJOINT_HPP
 #define PLAYRHO_DYNAMICS_JOINTS_GEARJOINT_HPP
 
-#include <PlayRho/Dynamics/Joints/Joint.hpp>
-#include <PlayRho/Dynamics/Joints/GearJointConf.hpp>
-#include <PlayRho/Common/BoundedValue.hpp>
+#include "PlayRho/Dynamics/Joints/Joint.hpp"
+#include "PlayRho/Dynamics/Joints/GearJointConf.hpp"
+#include "PlayRho/Common/BoundedValue.hpp"
 
 namespace playrho {
 namespace d2 {

@@ -19,8 +19,8 @@
  * 3. This notice may not be removed or altered from any source distribution.
  */
 
-#include <PlayRho/Collision/ShapeSeparation.hpp>
-#include <PlayRho/Collision/DistanceProxy.hpp>
+#include "PlayRho/Collision/ShapeSeparation.hpp"
+#include "PlayRho/Collision/DistanceProxy.hpp"
 #include <algorithm>
 
 namespace playrho {

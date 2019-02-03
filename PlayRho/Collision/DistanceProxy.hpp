@@ -20,8 +20,8 @@
 #ifndef PLAYRHO_COLLISION_DISTANCEPROXY_HPP
 #define PLAYRHO_COLLISION_DISTANCEPROXY_HPP
 
-#include <PlayRho/Common/Math.hpp>
-#include <PlayRho/Common/Range.hpp>
+#include "PlayRho/Common/Math.hpp"
+#include "PlayRho/Common/Range.hpp"
 #include <vector>
 #include <algorithm>
 

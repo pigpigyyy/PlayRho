@@ -20,7 +20,7 @@
 #ifndef PLAYRHO_COMMON_ARRAYLIST_HPP
 #define PLAYRHO_COMMON_ARRAYLIST_HPP
 
-#include <PlayRho/Defines.hpp>
+#include "PlayRho/Defines.hpp"
 
 #include <array>
 #include <cassert>

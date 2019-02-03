@@ -22,8 +22,8 @@
 #ifndef PLAYRHO_DYNAMICS_JOINTS_REVOLUTEJOINT_HPP
 #define PLAYRHO_DYNAMICS_JOINTS_REVOLUTEJOINT_HPP
 
-#include <PlayRho/Dynamics/Joints/Joint.hpp>
-#include <PlayRho/Dynamics/Joints/RevoluteJointConf.hpp>
+#include "PlayRho/Dynamics/Joints/Joint.hpp"
+#include "PlayRho/Dynamics/Joints/RevoluteJointConf.hpp"
 
 namespace playrho {
 namespace d2 {

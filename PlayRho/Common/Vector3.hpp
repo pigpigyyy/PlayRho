@@ -22,8 +22,8 @@
 #ifndef PLAYRHO_COMMON_VECTOR3_HPP
 #define PLAYRHO_COMMON_VECTOR3_HPP
 
-#include <PlayRho/Common/Settings.hpp>
-#include <PlayRho/Common/Vector.hpp>
+#include "PlayRho/Common/Settings.hpp"
+#include "PlayRho/Common/Vector.hpp"
 
 namespace playrho {
 

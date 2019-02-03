@@ -22,8 +22,8 @@
 #ifndef PLAYRHO_DYNAMICS_JOINTS_MOUSEJOINT_HPP
 #define PLAYRHO_DYNAMICS_JOINTS_MOUSEJOINT_HPP
 
-#include <PlayRho/Dynamics/Joints/Joint.hpp>
-#include <PlayRho/Dynamics/Joints/TargetJointConf.hpp>
+#include "PlayRho/Dynamics/Joints/Joint.hpp"
+#include "PlayRho/Dynamics/Joints/TargetJointConf.hpp"
 
 namespace playrho {
 namespace d2 {

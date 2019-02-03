@@ -22,8 +22,8 @@
 #ifndef PLAYRHO_DYNAMICS_JOINTS_ROPEJOINT_HPP
 #define PLAYRHO_DYNAMICS_JOINTS_ROPEJOINT_HPP
 
-#include <PlayRho/Dynamics/Joints/Joint.hpp>
-#include <PlayRho/Dynamics/Joints/RopeJointConf.hpp>
+#include "PlayRho/Dynamics/Joints/Joint.hpp"
+#include "PlayRho/Dynamics/Joints/RopeJointConf.hpp"
 
 namespace playrho {
 namespace d2 {

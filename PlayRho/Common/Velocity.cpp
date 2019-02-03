@@ -18,9 +18,9 @@
  * 3. This notice may not be removed or altered from any source distribution.
  */
 
-#include <PlayRho/Common/Velocity.hpp>
-#include <PlayRho/Common/Math.hpp>
-#include <PlayRho/Dynamics/Contacts/VelocityConstraint.hpp>
+#include "PlayRho/Common/Velocity.hpp"
+#include "PlayRho/Common/Math.hpp"
+#include "PlayRho/Dynamics/Contacts/VelocityConstraint.hpp"
 
 namespace playrho {
 namespace d2 {

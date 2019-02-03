@@ -19,8 +19,8 @@
  * 3. This notice may not be removed or altered from any source distribution.
  */
 
-#include <PlayRho/Dynamics/Joints/JointConf.hpp>
-#include <PlayRho/Dynamics/Joints/Joint.hpp>
+#include "PlayRho/Dynamics/Joints/JointConf.hpp"
+#include "PlayRho/Dynamics/Joints/Joint.hpp"
 
 namespace playrho {
 namespace d2 {

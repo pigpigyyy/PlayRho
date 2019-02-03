@@ -20,8 +20,8 @@
 #ifndef PLAYRHO_DYNAMICS_FIXTUREPROXY_HPP
 #define PLAYRHO_DYNAMICS_FIXTUREPROXY_HPP
 
-#include <PlayRho/Common/Settings.hpp>
-#include <PlayRho/Collision/AABB.hpp>
+#include "PlayRho/Common/Settings.hpp"
+#include "PlayRho/Collision/AABB.hpp"
 
 namespace playrho {
 

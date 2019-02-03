@@ -18,8 +18,8 @@
  * 3. This notice may not be removed or altered from any source distribution.
  */
 
-#include <PlayRho/Dynamics/ContactImpulsesList.hpp>
-#include <PlayRho/Dynamics/Contacts/VelocityConstraint.hpp>
+#include "PlayRho/Dynamics/ContactImpulsesList.hpp"
+#include "PlayRho/Dynamics/Contacts/VelocityConstraint.hpp"
 
 namespace playrho {
 namespace d2 {

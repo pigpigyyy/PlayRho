@@ -20,7 +20,7 @@
 #ifndef PLAYRHO_DYNAMICS_WORLDCALLBACKS_HPP
 #define PLAYRHO_DYNAMICS_WORLDCALLBACKS_HPP
 
-#include <PlayRho/Common/Settings.hpp>
+#include "PlayRho/Common/Settings.hpp"
 #include <algorithm>
 
 namespace playrho {

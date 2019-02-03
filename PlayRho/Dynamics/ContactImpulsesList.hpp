@@ -21,7 +21,7 @@
 #ifndef PLAYRHO_DYNAMICS_CONTACTIMPULSESLIST_HPP
 #define PLAYRHO_DYNAMICS_CONTACTIMPULSESLIST_HPP
 
-#include <PlayRho/Common/Settings.hpp>
+#include "PlayRho/Common/Settings.hpp"
 #include <algorithm>
 
 namespace playrho {

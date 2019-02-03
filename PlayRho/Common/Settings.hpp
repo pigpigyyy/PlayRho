@@ -34,10 +34,10 @@
 #include <cstdint>
 #include <algorithm>
 
-#include <PlayRho/Common/Templates.hpp>
-#include <PlayRho/Common/RealConstants.hpp>
-#include <PlayRho/Common/Units.hpp>
-#include <PlayRho/Common/Wider.hpp>
+#include "PlayRho/Common/Templates.hpp"
+#include "PlayRho/Common/RealConstants.hpp"
+#include "PlayRho/Common/Units.hpp"
+#include "PlayRho/Common/Wider.hpp"
 
 namespace playrho {
 namespace detail {

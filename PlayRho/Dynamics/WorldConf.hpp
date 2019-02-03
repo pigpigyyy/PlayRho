@@ -24,8 +24,8 @@
 /// @file
 /// Declarations of the WorldConf class.
 
-#include <PlayRho/Common/Math.hpp>
-#include <PlayRho/Common/BoundedValue.hpp>
+#include "PlayRho/Common/Math.hpp"
+#include "PlayRho/Common/BoundedValue.hpp"
 
 namespace playrho {
 namespace d2 {

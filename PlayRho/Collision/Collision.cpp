@@ -17,8 +17,8 @@
  * 3. This notice may not be removed or altered from any source distribution.
  */
 
-#include <PlayRho/Collision/Collision.hpp>
-#include <PlayRho/Collision/Manifold.hpp>
+#include "PlayRho/Collision/Collision.hpp"
+#include "PlayRho/Collision/Manifold.hpp"
 #include <cmath>
 
 namespace playrho {

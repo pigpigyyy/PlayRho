@@ -25,8 +25,8 @@
 /// @file
 /// Declarations of the StepConf class, and free functions associated with it.
 
-#include <PlayRho/Common/Settings.hpp>
-#include <PlayRho/Common/BoundedValue.hpp>
+#include "PlayRho/Common/Settings.hpp"
+#include "PlayRho/Common/BoundedValue.hpp"
 
 namespace playrho {
 

@@ -20,7 +20,7 @@
 #ifndef PLAYRHO_DYNAMICS_CONTACTS_CONTACTSOLVER_HPP
 #define PLAYRHO_DYNAMICS_CONTACTS_CONTACTSOLVER_HPP
 
-#include <PlayRho/Common/Math.hpp>
+#include "PlayRho/Common/Math.hpp"
 
 namespace playrho {
 

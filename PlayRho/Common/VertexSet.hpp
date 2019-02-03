@@ -19,7 +19,7 @@
 #ifndef PLAYRHO_COMMON_VERTEXSET_HPP
 #define PLAYRHO_COMMON_VERTEXSET_HPP
 
-#include <PlayRho/Common/Math.hpp>
+#include "PlayRho/Common/Math.hpp"
 
 #include <vector>
 #include <algorithm>

@@ -22,9 +22,9 @@
 #ifndef PLAYRHO_DYNAMICS_JOINTS_PRISMATICJOINT_HPP
 #define PLAYRHO_DYNAMICS_JOINTS_PRISMATICJOINT_HPP
 
-#include <PlayRho/Dynamics/Joints/Joint.hpp>
-#include <PlayRho/Dynamics/Joints/PrismaticJointConf.hpp>
-#include <PlayRho/Common/BoundedValue.hpp>
+#include "PlayRho/Dynamics/Joints/Joint.hpp"
+#include "PlayRho/Dynamics/Joints/PrismaticJointConf.hpp"
+#include "PlayRho/Common/BoundedValue.hpp"
 
 namespace playrho {
 namespace d2 {

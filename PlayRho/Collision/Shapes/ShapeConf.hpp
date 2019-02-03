@@ -22,9 +22,9 @@
 #ifndef PLAYRHO_COLLISION_SHAPES_SHAPECONF_HPP
 #define PLAYRHO_COLLISION_SHAPES_SHAPECONF_HPP
 
-#include <PlayRho/Common/Units.hpp>
-#include <PlayRho/Common/BoundedValue.hpp>
-#include <PlayRho/Common/Settings.hpp>
+#include "PlayRho/Common/Units.hpp"
+#include "PlayRho/Common/BoundedValue.hpp"
+#include "PlayRho/Common/Settings.hpp"
 
 namespace playrho {
 namespace d2 {

@@ -20,9 +20,9 @@
 #ifndef PLAYRHO_DYNAMICS_CONTACTS_BODYCONSTRAINT_HPP
 #define PLAYRHO_DYNAMICS_CONTACTS_BODYCONSTRAINT_HPP
 
-#include <PlayRho/Common/Math.hpp>
-#include <PlayRho/Dynamics/MovementConf.hpp>
-#include <PlayRho/Dynamics/Body.hpp>
+#include "PlayRho/Common/Math.hpp"
+#include "PlayRho/Dynamics/MovementConf.hpp"
+#include "PlayRho/Dynamics/Body.hpp"
 
 namespace playrho {
 namespace d2 {

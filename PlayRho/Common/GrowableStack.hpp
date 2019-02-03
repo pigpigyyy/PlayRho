@@ -22,7 +22,7 @@
 #ifndef PLAYRHO_COMMON_GROWABLESTACK_HPP
 #define PLAYRHO_COMMON_GROWABLESTACK_HPP
 
-#include <PlayRho/Common/DynamicMemory.hpp>
+#include "PlayRho/Common/DynamicMemory.hpp"
 #include <cstring>
 
 namespace playrho {

@@ -17,7 +17,7 @@
  * 3. This notice may not be removed or altered from any source distribution.
  */
 
-#include <PlayRho/Collision/Simplex.hpp>
+#include "PlayRho/Collision/Simplex.hpp"
 
 namespace playrho {
 namespace d2 {

@@ -22,8 +22,8 @@
 #ifndef PLAYRHO_COMMON_INTERVALS_HPP
 #define PLAYRHO_COMMON_INTERVALS_HPP
 
-#include <PlayRho/Common/Interval.hpp>
-#include <PlayRho/Common/Units.hpp>
+#include "PlayRho/Common/Interval.hpp"
+#include "PlayRho/Common/Units.hpp"
 
 namespace playrho {
     

@@ -22,8 +22,8 @@
 #ifndef PLAYRHO_DYNAMICS_JOINTS_PULLEYJOINT_HPP
 #define PLAYRHO_DYNAMICS_JOINTS_PULLEYJOINT_HPP
 
-#include <PlayRho/Dynamics/Joints/Joint.hpp>
-#include <PlayRho/Dynamics/Joints/PulleyJointConf.hpp>
+#include "PlayRho/Dynamics/Joints/Joint.hpp"
+#include "PlayRho/Dynamics/Joints/PulleyJointConf.hpp"
 
 namespace playrho {
 namespace d2 {

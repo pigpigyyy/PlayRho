@@ -21,7 +21,7 @@
 #ifndef PLAYRHO_DYNAMICS_JOINTS_FUNCTIONALJOINTVISITOR_HPP
 #define PLAYRHO_DYNAMICS_JOINTS_FUNCTIONALJOINTVISITOR_HPP
 
-#include <PlayRho/Dynamics/Joints/JointVisitor.hpp>
+#include "PlayRho/Dynamics/Joints/JointVisitor.hpp"
 #include <functional>
 #include <tuple>
 #include <utility>

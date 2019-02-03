@@ -24,7 +24,7 @@
 /// @file
 /// Declaration of the JointAtty class.
 
-#include <PlayRho/Dynamics/Joints/Joint.hpp>
+#include "PlayRho/Dynamics/Joints/Joint.hpp"
 
 namespace playrho {
 namespace d2 {

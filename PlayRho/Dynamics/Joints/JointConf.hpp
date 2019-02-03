@@ -22,7 +22,7 @@
 #ifndef PLAYRHO_DYNAMICS_JOINTS_JOINTCONF_HPP
 #define PLAYRHO_DYNAMICS_JOINTS_JOINTCONF_HPP
 
-#include <PlayRho/Dynamics/Joints/JointType.hpp>
+#include "PlayRho/Dynamics/Joints/JointType.hpp"
 #include <cstdint>
 
 namespace playrho {

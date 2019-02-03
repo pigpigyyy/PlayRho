@@ -19,8 +19,8 @@
  * 3. This notice may not be removed or altered from any source distribution.
  */
 
-#include <PlayRho/Dynamics/FixtureConf.hpp>
-#include <PlayRho/Dynamics/Fixture.hpp>
+#include "PlayRho/Dynamics/FixtureConf.hpp"
+#include "PlayRho/Dynamics/Fixture.hpp"
 
 namespace playrho {
 namespace d2 {

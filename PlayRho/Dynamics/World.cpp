@@ -19,48 +19,48 @@
  * 3. This notice may not be removed or altered from any source distribution.
  */
 
-#include <PlayRho/Dynamics/World.hpp>
-#include <PlayRho/Dynamics/Body.hpp>
-#include <PlayRho/Dynamics/BodyConf.hpp>
-#include <PlayRho/Dynamics/BodyAtty.hpp>
-#include <PlayRho/Dynamics/StepConf.hpp>
-#include <PlayRho/Dynamics/Fixture.hpp>
-#include <PlayRho/Dynamics/FixtureAtty.hpp>
-#include <PlayRho/Dynamics/FixtureProxy.hpp>
-#include <PlayRho/Dynamics/Island.hpp>
-#include <PlayRho/Dynamics/JointAtty.hpp>
-#include <PlayRho/Dynamics/ContactAtty.hpp>
-#include <PlayRho/Dynamics/MovementConf.hpp>
-#include <PlayRho/Dynamics/ContactImpulsesList.hpp>
+#include "PlayRho/Dynamics/World.hpp"
+#include "PlayRho/Dynamics/Body.hpp"
+#include "PlayRho/Dynamics/BodyConf.hpp"
+#include "PlayRho/Dynamics/BodyAtty.hpp"
+#include "PlayRho/Dynamics/StepConf.hpp"
+#include "PlayRho/Dynamics/Fixture.hpp"
+#include "PlayRho/Dynamics/FixtureAtty.hpp"
+#include "PlayRho/Dynamics/FixtureProxy.hpp"
+#include "PlayRho/Dynamics/Island.hpp"
+#include "PlayRho/Dynamics/JointAtty.hpp"
+#include "PlayRho/Dynamics/ContactAtty.hpp"
+#include "PlayRho/Dynamics/MovementConf.hpp"
+#include "PlayRho/Dynamics/ContactImpulsesList.hpp"
 
-#include <PlayRho/Dynamics/Joints/Joint.hpp>
-#include <PlayRho/Dynamics/Joints/JointVisitor.hpp>
-#include <PlayRho/Dynamics/Joints/RevoluteJoint.hpp>
-#include <PlayRho/Dynamics/Joints/PrismaticJoint.hpp>
-#include <PlayRho/Dynamics/Joints/DistanceJoint.hpp>
-#include <PlayRho/Dynamics/Joints/PulleyJoint.hpp>
-#include <PlayRho/Dynamics/Joints/TargetJoint.hpp>
-#include <PlayRho/Dynamics/Joints/GearJoint.hpp>
-#include <PlayRho/Dynamics/Joints/WheelJoint.hpp>
-#include <PlayRho/Dynamics/Joints/WeldJoint.hpp>
-#include <PlayRho/Dynamics/Joints/FrictionJoint.hpp>
-#include <PlayRho/Dynamics/Joints/RopeJoint.hpp>
-#include <PlayRho/Dynamics/Joints/MotorJoint.hpp>
+#include "PlayRho/Dynamics/Joints/Joint.hpp"
+#include "PlayRho/Dynamics/Joints/JointVisitor.hpp"
+#include "PlayRho/Dynamics/Joints/RevoluteJoint.hpp"
+#include "PlayRho/Dynamics/Joints/PrismaticJoint.hpp"
+#include "PlayRho/Dynamics/Joints/DistanceJoint.hpp"
+#include "PlayRho/Dynamics/Joints/PulleyJoint.hpp"
+#include "PlayRho/Dynamics/Joints/TargetJoint.hpp"
+#include "PlayRho/Dynamics/Joints/GearJoint.hpp"
+#include "PlayRho/Dynamics/Joints/WheelJoint.hpp"
+#include "PlayRho/Dynamics/Joints/WeldJoint.hpp"
+#include "PlayRho/Dynamics/Joints/FrictionJoint.hpp"
+#include "PlayRho/Dynamics/Joints/RopeJoint.hpp"
+#include "PlayRho/Dynamics/Joints/MotorJoint.hpp"
 
-#include <PlayRho/Dynamics/Contacts/Contact.hpp>
-#include <PlayRho/Dynamics/Contacts/ContactSolver.hpp>
-#include <PlayRho/Dynamics/Contacts/VelocityConstraint.hpp>
-#include <PlayRho/Dynamics/Contacts/PositionConstraint.hpp>
+#include "PlayRho/Dynamics/Contacts/Contact.hpp"
+#include "PlayRho/Dynamics/Contacts/ContactSolver.hpp"
+#include "PlayRho/Dynamics/Contacts/VelocityConstraint.hpp"
+#include "PlayRho/Dynamics/Contacts/PositionConstraint.hpp"
 
-#include <PlayRho/Collision/WorldManifold.hpp>
-#include <PlayRho/Collision/TimeOfImpact.hpp>
-#include <PlayRho/Collision/RayCastOutput.hpp>
-#include <PlayRho/Collision/DistanceProxy.hpp>
+#include "PlayRho/Collision/WorldManifold.hpp"
+#include "PlayRho/Collision/TimeOfImpact.hpp"
+#include "PlayRho/Collision/RayCastOutput.hpp"
+#include "PlayRho/Collision/DistanceProxy.hpp"
 
-#include <PlayRho/Common/LengthError.hpp>
-#include <PlayRho/Common/DynamicMemory.hpp>
-#include <PlayRho/Common/FlagGuard.hpp>
-#include <PlayRho/Common/WrongState.hpp>
+#include "PlayRho/Common/LengthError.hpp"
+#include "PlayRho/Common/DynamicMemory.hpp"
+#include "PlayRho/Common/FlagGuard.hpp"
+#include "PlayRho/Common/WrongState.hpp"
 
 #include <algorithm>
 #include <new>
@@ -1043,7 +1043,7 @@ RegStepStats World::SolveReg(const StepConf& conf)
     });
 
 #if defined(DO_THREADED)
-    std::vector<std::future<World::IslandSolverResults>> futures;
+    std::vector<std::future<IslandStats>> futures;
     futures.reserve(remNumBodies);
 #endif
     // Build and simulate all awake islands.
@@ -2111,6 +2111,7 @@ ContactCounter World::FindNewContacts()
     // to eliminate any node pairs that have the same body here before the key pairs are
     // sorted.
     for_each(cbegin(m_proxies), cend(m_proxies), [&](ProxyId pid) {
+    	if (pid == DynamicTree::GetInvalidSize()) return;
         const auto body0 = m_tree.GetLeafData(pid).body;
         const auto aabb = m_tree.GetAABB(pid);
         Query(m_tree, aabb, [&](DynamicTree::Size nodeId) {

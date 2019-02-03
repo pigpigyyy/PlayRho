@@ -17,8 +17,8 @@
  * 3. This notice may not be removed or altered from any source distribution.
  */
 
-#include <PlayRho/Collision/Shapes/PolygonShapeConf.hpp>
-#include <PlayRho/Common/VertexSet.hpp>
+#include "PlayRho/Collision/Shapes/PolygonShapeConf.hpp"
+#include "PlayRho/Common/VertexSet.hpp"
 
 namespace playrho {
 namespace d2 {

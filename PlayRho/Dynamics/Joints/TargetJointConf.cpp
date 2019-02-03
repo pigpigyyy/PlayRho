@@ -19,8 +19,8 @@
  * 3. This notice may not be removed or altered from any source distribution.
  */
 
-#include <PlayRho/Dynamics/Joints/TargetJointConf.hpp>
-#include <PlayRho/Dynamics/Joints/TargetJoint.hpp>
+#include "PlayRho/Dynamics/Joints/TargetJointConf.hpp"
+#include "PlayRho/Dynamics/Joints/TargetJoint.hpp"
 
 namespace playrho {
 namespace d2 {

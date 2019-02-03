@@ -24,7 +24,7 @@
 /// @file
 /// Declaration of the WorldAtty class.
 
-#include <PlayRho/Dynamics/World.hpp>
+#include "PlayRho/Dynamics/World.hpp"
 
 namespace playrho {
 namespace d2 {
